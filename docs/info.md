@@ -14,10 +14,7 @@ You can also include images in this folder and reference them in the markdown. E
  The design will include 8 one_bit_pufs, 
  addr = 2'b10 will read 2 puf bits (OUT[5:4])
 
-#figure(
-  image("382493637-9d6a2bda-9b6e-4557-9e3f-47c720b87022.png"),
-  caption: [PUF block diagram.]
-)
+![PUF block diagram](382493637-9d6a2bda-9b6e-4557-9e3f-47c720b87022.png)
 
 
 ## How to test
