@@ -14,7 +14,11 @@ You can also include images in this folder and reference them in the markdown. E
  The design will include 8 one_bit_pufs, 
  addr = 2'b10 will read 2 puf bits (OUT[5:4])
 
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/49791617/382493637-9d6a2bda-9b6e-4557-9e3f-47c720b87022.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251103T224815Z&X-Amz-Expires=300&X-Amz-Signature=dbac91cc1d7a971fb2db82cc3406c2aacc9387d82aa31e55ffac18f18f19f85d&X-Amz-SignedHeaders=host)
+#figure(
+  image("382493637-9d6a2bda-9b6e-4557-9e3f-47c720b87022.png"),
+  caption: [PUF block diagram.]
+)
+
 
 ## How to test
 
